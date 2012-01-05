@@ -27,7 +27,7 @@ Product.create(:title => 'Web Design for Developers',
         and work through a web site redesign, taking a new design from concept
         all the way to implementation.
       </p>},
-  :image_url =>   '/assets/images/wd4d.jpg',    
+  :image_url =>   'wd4d.jpg',    
   :price => 42.95)
 # . . .
 Product.create(:title => 'Programming Ruby 1.9',
@@ -37,7 +37,7 @@ Product.create(:title => 'Programming Ruby 1.9',
         out there. If you need to get working programs delivered fast,
         you should add Ruby to your toolbox.
       </p>},
-  :image_url => '/assets/images/ruby.jpg',
+  :image_url => 'ruby.jpg',
   :price => 49.50)
 # . . .
 
@@ -51,7 +51,7 @@ Product.create(:title => 'Rails Test Prescriptions',
         procedures for Rails 2 and Rails 3, and introduces popular add-ons,
         including Cucumber, Shoulda, Machinist, Mocha, and Rcov.
       </p>},
-  :image_url => '/assets/images/rtp.jpg',
+  :image_url => 'rtp.jpg',
   :price => 43.75)
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
